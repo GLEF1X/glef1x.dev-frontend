@@ -14,4 +14,5 @@
 `├──`[`index.tsx`](./index.tsx) — Single-page application (SPA) entry point<br>
 `├──`[`package.json`](./package.json) — Workspace settings and NPM dependencies<br>
 `├──`[`tsconfig.ts`](./tsconfig.json) — TypeScript configuration<br>
-`└──`[`vite.config.ts`](./vite.config.ts) — JavaScript bundler configuration ([docs](https://vitejs.dev/config/))<br>
+`└──`[`vite.config.ts`](./vite.config.ts) — JavaScript bundler
+configuration ([docs](https://vitejs.dev/config/))<br>

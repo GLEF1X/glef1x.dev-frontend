@@ -3,13 +3,10 @@
 
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
 import { RecoilRoot } from "recoil";
 import { App } from "./common/App.js";
 
 const container = document.getElementById("root") as HTMLElement;
-/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
-const data = (document.getElementById("data") as HTMLScriptElement).text;
 
 // TODO: Initialize local store (Relay, Apollo, Redux, etc.)
 // const store = createRelay({ data: JSON.parse(data) });
@@ -18,9 +15,7 @@ const data = (document.getElementById("data") as HTMLScriptElement).text;
 ReactDOM.createRoot(container).render(
   <React.StrictMode>
     <RecoilRoot>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <App />
     </RecoilRoot>
   </React.StrictMode>
 );
