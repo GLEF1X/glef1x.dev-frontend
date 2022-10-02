@@ -9,16 +9,7 @@ import { defineConfig } from "vite";
 envars.config();
 
 // The list of environment variables required by the app
-const defineVars = [
-  "APP_ENV",
-  "APP_NAME",
-  "APP_HOSTNAME",
-  "GOOGLE_CLOUD_PROJECT",
-  "FIREBASE_APP_ID",
-  "FIREBASE_API_KEY",
-  "FIREBASE_AUTH_DOMAIN",
-  "GA_MEASUREMENT_ID",
-];
+const defineVars = ["APP_ENV", "APP_NAME", "APP_HOSTNAME"];
 
 /**
  * Vite configuration
